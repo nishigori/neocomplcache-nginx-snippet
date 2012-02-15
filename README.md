@@ -4,7 +4,8 @@ A neocomplcache snippet complate for the [Nginx](http://wiki.nginx.org/Main).
 
 ## install
 
-* install the neocomplcache.vim
+* install the [neocomplcache.vim](https://github.com/Shougo/neocomplcache)
+* install the [neocomplcache-snippets-complete](https://github.com/Shougo/neocomplcache-snippets-complete)
 
 ## How to use
 
