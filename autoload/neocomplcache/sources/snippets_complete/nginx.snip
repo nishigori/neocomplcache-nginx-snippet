@@ -1,0 +1,62 @@
+# filename: nginx.snip
+# Lisence The MIT License (MIT)
+# nginx http://www.nginx.org/
+# Maintener Takuya Nishigori <nishigori.tak@gmail.com>
+# Updated   2012-02-16
+
+
+# Directives
+
+# 2.1 aio
+snippet     aio
+abbr        aio [default:off]
+prev_word   '^'
+    aio ${0:on|off|sendfile};
+
+# 2.2 alias
+snippet     alias
+abbr        alias [default:no]
+prev_word   '^'
+    alias ${0:filepath|directory-path};
+
+# 2.15 error_page
+snippet     error_page
+abbr        error_page [default:no]
+prev_word   '^'
+    error_page ${0} ${2:=|=answer-code} ${3:uri|@named_location}
+
+# 2.28 listen
+snippet     listen
+abbr        listen [default:listen 80]
+prev_word   '^'
+    listen ${1:address}:${2:port};
+
+# 2.29 location
+snippet     location
+abbr        location [default:no]
+prev_word   '^'
+    location ${1:case} {
+        ${0:configuration}
+    }
+
+# 2.52 server
+snippet     server
+abbr        virtual server [default:no]
+prev_word   '^'
+    server {
+        server_name ${1:host};
+        ${0:configuration}
+    }
+
+# 2.53 server_name
+snippet     server_name
+abbr        server_name
+prev_word   '^'
+    server_name ${0:host};
+
+#2.60 try_files
+snippet     try_files
+abbr        checks for the existence of files in order
+prev_word   '^'
+    try_files ${1:path1} ${2:path2} ${0:uri};
+
