@@ -16,9 +16,9 @@ check that the filetype in vim contains.
 
 For exam, Please add in your .vimrc:
 
-  `augroup FiletypeDetect
-    au! BufRead,BufNewFile /etc/nginx/*,/usr/local/nginx/*,*/nginx/vhosts.d/*,nginx.conf setfiletype nginx
-  augroup END`
+  `augroup FiletypeDetect`
+  `  au! BufRead,BufNewFile /etc/nginx/*,/usr/local/nginx/*,*/nginx/vhosts.d/*,nginx.conf setfiletype nginx`
+  `augroup END`
 
 or {your vim's runtimepath}/ftdetect/nginx.vim:
 
