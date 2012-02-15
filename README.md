@@ -1,4 +1,4 @@
-# neocomplcache-nginx-configuration
+# neocomplcache-nginx-snippet-complate
 
 A neocomplcache snippet complate for the [Nginx](http://wiki.nginx.org/Main).
 
@@ -32,11 +32,10 @@ Not just the snippet, complete the nginx configuration's keyword. Maybe Yes :p
 ## Info
 
 * [Nginx](http://wiki.nginx.org/Main)
-* [neocomplcache (vim.org)](http://www.vim.org/scripts/script.php?script_id=2620)
-* [neocomplcache (github)](https://github.com/Shougo/neocomplcache)
-* [neocomplcache-snippets-complete (github)](https://github.com/Shougo/neocomplcache-snippets-complete)
+* neocomplcache [(vim.org)](http://www.vim.org/scripts/script.php?script_id=2620) [(github)](https://github.com/Shougo/neocomplcache)
+* neocomplcache-snippets-complete [(github)](https://github.com/Shougo/neocomplcache-snippets-complete)
 * [vim doc: ftdetect](http://vimdoc.sourceforge.net/htmldoc/filetype.html#ftdetect)
-* another Vim plugin for nginx
+another Vim plugin for nginx
 * [nginx.vim (syntax)](http://www.vim.org/scripts/script.php?script_id=1886)
 * [@evanmiller forked nginx.vim (syntax, indent)](https://github.com/evanmiller/nginx-vim-syntax)
 * [@chase forked nginx.vim (syntax, indent, ftdetect)](https://github.com/chase/nginx.vim)
