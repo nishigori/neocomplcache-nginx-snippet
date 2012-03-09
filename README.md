@@ -2,7 +2,7 @@
 
 A neocomplcache snippet complate for the [Nginx](http://wiki.nginx.org/Main) configuration.
 
-## install
+## Depends plugins
 
 * install the [neocomplcache.vim](https://github.com/Shougo/neocomplcache)
 * install the [neocomplcache-snippets-complete](https://github.com/Shougo/neocomplcache-snippets-complete)
@@ -27,6 +27,12 @@ For exam, Please add in your .vimrc:
 or {your vim's runtimepath}/ftdetect/nginx.vim:
 
 `au BufRead,BufNewFile /etc/nginx/*,/usr/local/nginx/*,*/nginx/vhosts.d/*,nginx.conf setfiletype nginx`
+
+## Use with snipMate.vim
+
+Then, moved snippet file.
+
+`cp {This Plugin Dir}/autoload/neocomplcache/sources/snippets_complete/nginx.snip $VIMRUNTIME/snippets/nginx.snippets`
 
 ## FUTURE
 
