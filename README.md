@@ -1,6 +1,6 @@
 # neocomplcache-nginx-snippet-complate
 
-A neocomplcache snippet complate for the [Nginx](http://wiki.nginx.org/Main).
+A neocomplcache snippet complate for the [Nginx](http://wiki.nginx.org/Main) configuration.
 
 ## install
 
@@ -10,6 +10,7 @@ A neocomplcache snippet complate for the [Nginx](http://wiki.nginx.org/Main).
 ## How to use
 
 When you configure Nginx's file (nginx.conf, proxy.conf, fastcgi.conf ..),
+
 Specified vim's filetype nginx.
 
 If for some reason this plugin is not being added to neocomplcache-snippets-complete,
