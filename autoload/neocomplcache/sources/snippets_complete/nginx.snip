@@ -4,6 +4,15 @@
 # Maintener Takuya Nishigori <nishigori.tak@gmail.com>
 # Updated   2012-02-16
 
+# Statements
+
+snippet     if
+abbr        if () {}
+prev_word   '^'
+    if (${1:condition}) {
+        ${0:code}
+    }
+
 
 # Directives
 
